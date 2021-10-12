@@ -1,0 +1,113 @@
+.slider-container{
+    padding: 100px 0;
+    overflow-x: hidden;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.swiper-slide{
+    position: relative;
+    background-color: #e3e3e3;
+    border-radius: 8px;
+    min-height: 550px;
+    width: 890px;
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+.swiper-slide::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 50%, rgba(0, 0, 0, 0.461617) 100%);
+    opacity: 0;
+    transition: opacity .3s;
+}
+.featured-videos{
+    padding-bottom: 50px;
+    padding-top: 150px;
+}
+.swiper-slide-active{
+    transform: scaleX(1.16) scaleY(1.2);
+    transition: transform 0.3s;
+    
+}
+
+.swiper-slide-active::after{
+    opacity: 1;
+    transition: opacity .3s;
+}
+.slider-title{
+    font-weight: 700;
+    font-size: 28px;
+    color: var(--white-color);
+    position: relative;
+    z-index: 5;
+    padding-left: 35px;
+    padding-bottom: 30px;
+    transition: transform 0.3s;
+    transform: translateY(200px);
+}
+.swiper-slide-active .slider-title{
+    transition: transform 0.3s;
+    transform: translateY(0px);
+}
+.featured-videos__descr{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 650px;
+    font-family: 'SFCompact', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #788692;
+    margin-top: 26px;
+}
+
+
+.slide-1,
+.slide-2,
+.slide-3,
+.slide-4{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.slide-1{
+    background-image: url(../../img/become-1.jpg);
+}
+.slide-2{
+    background-image: url(../../img/become-2.jpg);
+}
+.slide-3{
+    background-image: url(../../img/become-3.jpg);
+}
+.slide-4{
+    background-image: url(../../img/become-4.jpg);
+}
+
+
+.slide-play{
+    position: absolute;
+    left: 48px;
+    top: 40px;
+    width: 112px;
+    height: 112px;
+    background-image: url(../../img/video-btn.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.swiper-slide video{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
