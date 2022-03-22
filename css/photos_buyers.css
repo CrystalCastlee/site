@@ -1,0 +1,33 @@
+.photos-buyers{
+    margin-bottom: 100px;
+}
+
+.photos-buyers__top{
+    text-align: center;
+}
+
+.photos-buyers__top-title {
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 600;
+    margin-bottom: 17px;
+}
+.photos-buyers__top-link {
+    color: #6f73ee;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    padding-right: 30px;
+    position: relative;
+}
+
+.photos-buyers__top-link::after{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 10px;
+    background-image: url(../img/selection-arrow.svg);
+    background-repeat: no-repeat;
+    top: 6px;
+    right: 0;
+}

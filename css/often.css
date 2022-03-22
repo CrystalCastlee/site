@@ -1,0 +1,26 @@
+.often__grid{
+    margin-bottom: 53px;
+}
+.often__title{
+    text-align: center;
+    margin-bottom: 60px;
+    color: #282739;
+    font-size: 35px;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.often__inner{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.often__grid-item{
+    width: 100%;
+    max-width: 255px;
+    max-height: 530px;
+    border: 1.5px solid #eaebed;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}

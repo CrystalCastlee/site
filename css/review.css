@@ -1,0 +1,120 @@
+.review{
+    margin-bottom: 100px;
+    position: relative;
+}
+.review__top-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.review__top-title {
+    text-transform: uppercase;
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 600;
+}
+.review__top-text {
+    margin-top: 17px;
+    margin-bottom: 50px;
+    max-width: 405px;
+    font-weight: 400;   
+    line-height: 20px;
+    font-size: 14px;
+    color: #5d6c7b;
+}
+.review__top-link {
+    color: #6f73ee;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    position: relative;
+    padding-right: 30px;
+}
+.review__top-link::after{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 10px;
+    background-image: url(../img/selection-arrow.svg);
+    background-repeat: no-repeat;
+    top: 6px;
+    right: 0;
+}
+
+
+.review__slider{
+    padding-top: 50px;
+}
+
+
+.review__slider-popup{
+    position: relative;
+    display: block;
+}
+
+.review__slider-popup-bg{
+    border-radius: 10px;
+}
+.review__slider-text{
+    margin-top: 20px;
+    font-size: 17px;
+    line-height: 26px;
+    color: #282739;
+    font-weight: 500;
+    max-width: 170px;
+
+}
+.review__wrapper .swiper-slide-active .review__slider-play{
+    position: absolute;
+    top: 24%;
+    left: 34%;
+    width: 100%;
+    max-width: 103px;
+}
+
+.review__slider-play {
+    position: absolute;
+    top: 32%;
+    left: 36%;
+    max-width: 68px;
+}
+.review__slide{
+    display: block;
+}
+
+.review__slider-popup-bg{
+    width: 100%;
+    max-width: 350px;
+    max-height: 197px;
+}
+
+.review__wrapper .swiper-slide-active{
+    width: 100%;
+    max-width: 540px;
+    height: auto;
+    padding: 0 100px;
+
+}
+.review__wrapper .swiper-slide-active .review__slider-popup-bg{
+    max-height: 303px;
+    transition: all .4s linear;
+    transform: scale(1.58);
+
+}
+
+.review__wrapper .swiper-slide-active .review__slider-text{
+    padding-top: 50px;
+    max-width: 100%;
+}
+
+.review-next-arrow-img{
+    cursor: pointer;
+    padding: 26px 29px 24px 29px;
+    background-color: #6F73EE;
+    border-radius: 50%;
+}
+ .review-next-arrow{
+    z-index: 10;
+    top: 55%;
+    right: 21%;
+}

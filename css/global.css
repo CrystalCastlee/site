@@ -1,0 +1,48 @@
+.container{
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.container-fluid{
+    max-width: 1380px;
+    margin: 0 auto;
+}
+.container-maket{
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+.container-accordion{
+    margin: 0 auto;
+    max-width: 730px;
+}
+
+body{
+    background-color: #ffffff;
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #282739;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+a{
+    font-family: 'Jost', sans-serif;
+    text-decoration: none;
+}
+
+button{
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+span{
+    background-color: #5D6C7B;
+}

@@ -1,0 +1,142 @@
+.header{
+    background-color: #fff;
+    padding: 10px 0;
+    border-bottom: 1px solid #ECF3FF;
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.header__services{
+    display: flex;
+}
+
+.services__list{
+    display: flex;
+}
+
+.icons__list{
+    display: flex;
+    align-items: center;
+}
+
+.services__list-item{
+    margin-right: 30px;
+}
+.services__item-link{
+    font-size: 12px;
+    line-height: 17px;
+    color: #5D6C7B;
+}
+.services__item-link:hover{
+    color: #282739;
+}
+.icons__item-link img{
+    width: 12px;
+    height: 12px;
+}
+.icons__list-item{
+    margin-right: 10px;
+}
+
+.icons__list-item:last-child{
+    margin-right: 0;
+}
+.phone{
+    margin-right: 20px;
+    color: #282739;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+}
+.header__phones{
+    position: relative;
+}
+#header__button-phones{
+    z-index: 5;
+    bottom: 3px;
+    right: 5px;
+    border-radius: 50%;
+    border: 1px solid #5D6C7B;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    transition: all 1s;
+}
+.header-button{
+    background-color: #5D6C7B;
+}
+#one-click{
+    position: absolute;
+    top: 4px;
+    left: 44%;
+    height: 8.2px;
+    width: 2px;
+    display: block;
+    transition: all .5s;
+}
+
+#two-click{
+    position: absolute;
+    display: block;
+    height: 2px;
+    width: 8px;
+    top: 45%;
+    right: 24%;
+    transition: all .5s;
+}
+.one{
+    transform: rotateX(90deg);
+    background-color: #fff;
+}
+.two{
+    background-color: #fff;
+}
+#viber:hover{
+    fill: #8E24AA;
+}
+
+#whatsapp:hover{
+    fill: #4CAF50;
+}
+#telegram:hover{
+    fill: #039BE5;
+}
+
+#menu__phones{
+    box-shadow: 0px 10px 30px rgba(111, 115, 238, 0.1);
+    z-index: 3;
+    border: 1px solid #ECF3FF;
+    position: absolute;
+    top: -5px;
+    right: -25px;
+    border-radius: 5px;
+    width: 250px;
+    height: 270px;
+    background-color: #ffffff;
+    display: none;
+    position: absolute;
+}
+.menu-phone{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #282739;
+}
+.menu__phones-item{
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-bottom: 2px solid #ECF3FF;
+}
+.menu__phones-item:first-child{
+    padding-bottom: 15px;
+}
+.menu__phones-item:last-child{
+    border-bottom: none;
+}
+.menu__phones-title{
+    padding-top: 15px;
+    font-size: 12px;
+    line-height: 17px;
+    color: #5D6C7B;
+}

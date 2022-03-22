@@ -1,0 +1,19 @@
+.popup-video__inner{
+    border-radius: 10px;
+    margin-bottom: 100px;
+    display: flex;
+    background-image: url(../img/pop-up-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 630px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-vido__btn-img{
+    max-width: 136px;
+    max-height: 136px;
+    object-fit: cover;
+}

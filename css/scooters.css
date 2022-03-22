@@ -1,0 +1,41 @@
+.scooters-top{
+    margin-bottom: 50px;
+}
+.scotters__top-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.scooters__top-list{
+    display: flex;
+}
+.scooters__list-item{
+    margin-left: 10px;
+}
+.scooters__list-item:first-child{
+    margin-left: 0;
+}
+.scooters__item-button{
+    color: #5D6C7B;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    background-color: #F4F7FB;
+}
+
+.scooters__top-title{
+    max-width: 380px;
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.scooters-active{
+    color: #6F73EE;
+    background-color: #fff;
+    border: 2px solid #6F73EE;
+}

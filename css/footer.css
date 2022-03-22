@@ -1,0 +1,229 @@
+
+.footer__wrapper{
+    padding-top: 50px;
+    background-color: #f4f7f8;
+}
+.footer__inform {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 36px;
+}
+.footer__inform::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #5D6C7B;
+    opacity: 0.15;
+}
+.footer__links {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__links-catalog {
+    padding-right: 125px;
+}
+.footer-catalog__item,
+.footer-buyers__item,
+.footer-info__item{
+    padding-bottom: 10px;
+}
+.catalog-item__link,
+.buyers-item__link,
+.info-item__link{
+    color: #5D6C7B;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.footer-catalog__title,
+.footer__contacts-title,
+.footer-buyers__title {
+    color: #282739;
+    margin-bottom: 17px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+.footer-info__list{
+    margin-top: 43px;
+}
+.footer__links-buyers{
+    padding-right: 45px;
+}
+
+.footer__contacts{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__contacts-top {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__contacts-button{
+    color: #6F73EE;
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 500;
+}
+
+.footer__contacts-list-graph {
+    display: flex;
+    margin-bottom: 30px;
+}
+.footer__contacts-graph-item:first-child{
+    margin-right: 40px;
+}
+.footer__contacts-graph-item{
+    max-width: 145px;
+}
+.footer__contacts-call-title,
+.footer__contacts-service-title{
+    margin-bottom: 5px;
+    font-size: 12px;
+    line-height: 17px;
+    color: #282739;
+}
+.footer__contacts-call-phone,
+.footer__contacts-service-phone{
+    margin-bottom: 7px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #282739;
+}
+.footer__contacts-call-time,
+.footer__contacts-service-time{
+    font-size: 12px;
+    line-height: 17px;
+    color: #5D6C7B;
+    font-weight: 400;
+}
+.footer__contacts-list-address {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__contacts-item-address{
+    margin-right: 50px;
+    max-width: 145px;
+}
+.footer__contacts-item-address:last-child{
+    margin-right: 0;
+}
+
+.footer__contacts-address-text{
+    font-size: 14px;
+    font-weight: 400;
+    color: #282739;
+    line-height: 18px;
+    margin-bottom: 8px;
+}
+.footer__contacts-address-phone{
+    color: #5D6C7B;
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 400;
+}
+
+
+.footer__market{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 34px;
+}
+
+.footer__market::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #5D6C7B;
+    opacity: 0.15;
+}
+.footer__market-left{
+    display: flex;
+    align-items: center;
+}
+.footer__market-left__block{
+    margin-left: 60px;
+}
+.footer__market-link:first-child{
+    margin-right: 10px;
+}
+.footer__social-list{
+    display: flex;
+}
+.footer__social-item{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px 16px 6px 12px;
+    margin-right: 10px;
+}
+.footer__social-item-link{
+    display: flex;
+}
+.footer__social-img{
+    margin-right: 13px;
+}
+
+.footer__social-name{
+    color: #282739;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.footer__social-followers{
+    font-size: 10px;
+    line-height: 14px;
+    font-weight: 400;
+    color: #5d6c7b;
+    background-color: transparent;
+}
+
+.footer__requisite{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__requisite-links{
+    display: flex;
+}
+.footer__requisite-item:first-child {
+    margin-right: 45px;
+}
+.footer__requisite-link {
+    color: #5d6c7b;
+}
+.footer__requisite-right {
+    display: flex;
+}
+.footer__requisite-right__pay {
+    display: flex;
+}
+.footer__requsite-right__pay-item {
+    margin-right: 5px;
+}
+.footer__requsite-right__pay-link {
+}
+.footer__requsite-right__pay-img {
+}
+.footer__requisite-right--chat{
+    margin-left: 37px;
+    display: flex;
+}
+
+.icons__list{
+    margin-left: 15px;
+}

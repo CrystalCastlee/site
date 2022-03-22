@@ -1,0 +1,95 @@
+.answers{
+    margin-bottom: 90px;
+}
+.answers__inner{
+
+}
+.answers__title{
+    text-align: center;
+    color: #282739;
+    margin: 0 auto;
+    max-width: 456px;
+    margin-bottom: 60px;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+.answers__accordion-wrapper{
+    align-items: center;
+    margin: 0 auto;
+    max-width: 730px;
+}
+.accordion-item{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    border-bottom: 1px solid #eaebed;
+}
+.accordion-item-title{
+    max-width: 648px;
+    padding: 24px 0;
+    color: #282739;
+    font-weight: 500;
+    line-height: 19px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.accordion-item:first-child .accordion-item-title{
+    padding: 0 0 24px 0;
+}
+.accordion-item-title::before{
+    content: "";
+    transition: all .3s ease-in-out;
+    position: absolute;
+    top: 18px;
+    transform: translate(0, -50%);
+    right: 20px;
+    height: 20px;
+    width: 2px;
+    background-color: #282739;
+}
+.accordion-item-title::after{
+    content: "";
+    transition: all .3s ease-in-out;
+    position: absolute;
+    top: 8px;
+    transform: translate(0, -50%);
+    right: 20px;
+    height: 20px;
+    width: 2px;
+    background-color: #282739;
+    transform: rotate(90deg);
+}
+
+.accordion-item-content{
+    position: relative;
+    transition: height .5s ease-in-out;
+    color: #282739;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 14px;
+    height: 0;
+    overflow: hidden;
+}
+
+.accordion-item.accordion-item--active .accordion-item-content{
+    height: auto;
+    padding-bottom: 15px;
+}
+
+.accordion-item.accordion-item--active .accordion-item-title::before{
+    transform: rotate(-45deg);
+}
+
+.accordion-item.accordion-item--active .accordion-item-title::after{
+    transform: rotate(45deg);
+    top: 18.2px;
+}
+
+
+/* div {cursor: pointer; position: absolute; top: 20px; left: 10px;}
+div:before, div:after {content: ""; position: absolute; 
+    width: 24px; height: 4px; background: gray;}
+div:before {transform: rotate(45deg);}
+div:after {transform: rotate(-45deg);} */

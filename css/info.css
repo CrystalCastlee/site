@@ -1,0 +1,64 @@
+.info{
+    padding: 10px 0;
+    background-color: #F4F7FB;
+    margin-bottom: 31px;
+}
+
+.info__list{
+    display: flex;
+}
+.info__item-link{
+    position: relative;
+    color: #282739;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    transition: all .2s ease-in-out;
+}
+
+.info__item-link:hover{
+    color: #6F73EE;
+}
+.info__list-item{
+    line-height: 20px;
+    margin-right: 50px;
+}
+
+.info-bonus{
+    display: flex;
+}
+
+.info__item-text{
+    cursor: default;
+    color: #fff;
+    margin-left: 8px;
+    background-color: #6F73EE;
+    padding: 4px 5.6px 2px 5.73px;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 14px;
+    border-radius: 50%;
+}
+
+.fucking__slave{
+    cursor: default;
+    padding-top: 3px;
+    padding-bottom: 1px;
+    border-radius: 300px;
+}
+
+
+.info__item-link::before{
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: #6F73EE;
+    transition: all .2s ease-in-out;
+}
+.info__item-link:hover::before{
+    width: 100%;
+    left: 0;
+}

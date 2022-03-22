@@ -1,0 +1,107 @@
+.new-article {
+    position: relative;
+    margin-bottom: 100px;
+}
+.new-article__slide{
+    display: block;
+}
+.new-article__title {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+.new-article__slider {
+}
+
+.new-article__wrapper {
+}
+
+.new-article__slide {
+    margin: 0 15px;
+    border-radius: 10px;
+    max-width: 350px;
+    background-color: #f4f7fb;
+}
+.new-article__slide:first-child{
+    margin: 0 15px 0 0;
+}
+.new-article__img{
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 20px;
+}
+.new-article__slider-box {
+    padding-left: 20px;
+    padding-bottom: 26px;
+}
+.new-article__slider-title {
+    margin-bottom: 11px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #282739;
+}
+.new-article__slider-text {
+    padding-bottom: 11px;
+    max-width: 281px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.new-article__slider-time,
+.new-article__slider-watch  {
+    color: #5D6C7B;
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 400;
+    position: relative;
+}
+.new-article__slider-time{
+    margin-right: 26.5px;
+    padding-left: 27px;
+}
+.new-article__slider-watch{
+    background-color: transparent;
+    padding-left: 26.5px;
+}
+.new-article__slider-time::before,
+.new-article__slider-watch::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 2px;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.new-article__slider-time::before{
+    background-image: url(../img/new-article/new-article-calendar.svg);
+    width: 16px;
+    height: 14.44px;
+}
+.new-article__slider-watch::before{
+    background-image: url(../img/new-article/new-article-watch.svg);
+    width: 15px;
+    height: 10.5px;
+    top: 4.2px;
+}
+
+
+.review-next-arrow-img{
+    cursor: pointer;
+    padding: 26px 29px 24px 29px;
+    background-color: #6F73EE;
+    border-radius: 50%;
+}
+.new-article-next-arrow{
+    z-index: 10;
+    top: 56%;
+    right: 35.3%;
+}
+
+.new-article__img{
+    max-width: 100%;
+}

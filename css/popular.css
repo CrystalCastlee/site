@@ -1,0 +1,109 @@
+.popular-category__header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    align-items: center;
+}
+
+.popular-category__title{
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.popular-category__card{
+    background-color: #f4f7fb;
+    border-radius: 5px;
+    display: flex;
+    max-width: 280px;
+    padding: 10px;
+    padding-right: 17px;
+}
+.popular-category__card--photo{
+    margin-right: 19px;
+    background-color: #F3A712;
+    border-radius: 5px;
+}
+
+.popular-category__card-content--text{
+    max-width: 178px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    margin-bottom: 7px;
+}
+
+.popular-category__card-content--link{
+    color: #6f73ee;
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+.popular-category__grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 30px;
+    column-gap: 30px;
+    margin-bottom: 50px;
+}
+
+
+.popular-category__grid-item{
+    display: inline-block;
+    max-width: 255px; 
+    max-height: 255px;
+    border-radius: 10px;
+    background-color: #f4f7fb;
+    position: relative;
+}
+.popular-category__grid-item-images{
+    border-radius: 10px;
+}
+
+.popular-category__grid-item__content{
+    position: absolute;
+    width: 233px;
+    height: 69px;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    justify-content: flex-end;
+}
+
+.popular-category__grid-title{
+    max-width: 160px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+    
+    color: #fff
+}
+
+.popular-category__grid-prise{
+    max-width: 100px;
+    margin-left: 10px;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+
+}
+
+.popular-category__grid-item{
+    display: none;
+}

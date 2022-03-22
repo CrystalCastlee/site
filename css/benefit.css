@@ -1,0 +1,115 @@
+.benefit {
+    margin-bottom: 100px;
+}
+
+.benefit__top {
+    text-align: center;
+}
+.benefit__top-title {
+    margin: 0 auto;
+    max-width: 930px;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 50px;
+    margin-bottom: 18px;
+}
+.benefit__top-subtitle {
+    background-color: transparent;
+    font-size: 20px;
+    line-height: 29px;
+    font-weight: 400;
+}
+.benefit__buttons {
+    margin: 50px 0;
+
+}
+.benefit__button-shop,
+.benefit__button-service{
+    background-color: #f4f7fb;
+    border-radius: 5px;
+    padding: 15px 25px;
+    border: 1.5px solid #f4f7fb;
+    color: #5d6c7b;
+    font-size: 16px;
+    line-height: 23px;
+}
+.benefit__button-shop{
+    margin-right: 20px;
+}
+.benefit__button--active {
+    background-color: #fff;
+    border: 1.5px solid #6f73ee;
+    color: #6f73ee;
+}
+
+.benefit__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(2, 225px);
+    gap: 30px;
+}
+.benefit__grid-item {
+    border: 1px solid #EAEBED;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 28px 40px 0 20px;
+}
+
+.benefit__grid-item__title {
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+}
+.benefit__grid-item__text {
+    max-width: 303px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+}
+.benefit__grid-item-last__inner{
+    transform: translateY(150%);
+}
+.benefit__grid-item--last-title{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+}
+.benefit__grid-item-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6f73ee;
+    padding-right: 20px;
+    position: relative;
+}
+.benefit__grid-item-link::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 6px;
+    height: 9px;
+    width: 12px;
+    background-image: url(./../img/selection-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.benefit__grid-item:nth-child(6){
+    position: relative;
+}
+.benefit__grid-item__img--last-item{
+    position: absolute;
+    top: 0;
+    right: 0;
+    object-fit: cover;
+}
+
+.benefits-block{
+    display: none;
+}
+.benefits-active{
+    display: block;
+}

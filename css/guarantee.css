@@ -1,0 +1,86 @@
+.guarantee{
+    margin-bottom: 80px;
+}
+.guarantee__inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.guarantee__list{
+    display: flex;
+}
+.guarantee__mark{
+    border: 1px solid rgba(93, 108, 123, 0.1);
+    border-radius: 5px;
+}
+.guarantee__list-item{
+    margin-right: 78px;
+}
+.guarantee__list-item:last-child{
+    margin-right: 0;
+}
+.guarantee__mark-block{
+    align-items: center;
+    margin: 10px;
+    text-align: center;
+}
+.guarantee__block-text{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #5D6C7B;
+}
+.guarantee__block-text-mark{
+    font-size: 25px;
+    line-height: 36px;
+    font-weight: 600;
+    position: relative;
+}
+.guarantee__block-text-mark::before{
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: 0;
+    background-image: url(../img/Star\ 6.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 14px;
+}
+.guarantee__mark-block{
+    position: relative;
+}
+.guarantee__mark-block::after{
+    content: '';
+    position: absolute;
+    height: 48px;
+    width: 48px;
+    top: 14px;
+    z-index: -1;
+    left: -60px;
+    background: #FC3F1D;
+    opacity: 0.5;
+    filter: blur(15px);
+    border-radius: 5px;
+}
+.guarantee__mark-glyph{
+    margin: 10px 0 10px 10px;
+    padding: 14px 19px 13px 18px;
+    background-color: #FC3F1D;
+    border-radius: 5px;
+}
+
+.guarantee__item-title{
+    font-size: 25px;
+    line-height: 36px;
+    font-weight: 600;
+}
+.guarantee__item-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+}
+.guarantee__mark{
+    display: flex;
+}
